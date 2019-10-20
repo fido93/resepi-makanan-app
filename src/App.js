@@ -6,12 +6,7 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import SingleRecipe from "./pages/SingleRecipe";
 import Default from "./pages/Default";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 export class App extends Component {
@@ -26,7 +21,6 @@ export class App extends Component {
             <Route path="/recipes" exact component={Recipes} />
             <Route path="/recipes/:id" component={SingleRecipe} />
             <Route component={Default} />
-            <Redirect to="/404" />
           </Switch>
         </main>
       </Router>
