@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-sm navbar-light bg-light">
       <Link to="/" className="navbar-brand">
         {/* <img src={logo} alt={logo} /> */}
-        <h4 className="bold mb-0">Resepi Worldwide</h4>
+        <h4 className="bold mb-0 text-slanted">Resepi Worldwide</h4>
       </Link>
       <div className="collapse navbar-collapse show ml-sm-5">
         <ul className="navbar-nav">
